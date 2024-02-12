@@ -16,8 +16,8 @@ const char* ntpServer2 = "time.nist.gov";
 const long gmtOffset_sec = 25200; // UTC+7
 const int daylightOffset_sec = 0; // No daylight saving time in UTC+7
 
+// English day names
 const char* en_dayNames[] = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
-
 
 // Thai day names
 const char* th_dayNames[] = {"อาทิตย์", "จันทร์", "อังคาร", "พุธ", "พฤหัสบดี", "ศุกร์", "เสาร์"};

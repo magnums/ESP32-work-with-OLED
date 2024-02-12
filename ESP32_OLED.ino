@@ -110,6 +110,9 @@ void setup() {
     Serial.print(".");
   }
   Serial.println(" CONNECTED");
+  // Print IP address
+  Serial.print("IP address: ");
+  Serial.println(WiFi.localIP());
 }
 
 void loop() {

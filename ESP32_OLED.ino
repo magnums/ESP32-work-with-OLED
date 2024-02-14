@@ -8,8 +8,8 @@
 #define OLED_RESET    -1
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
-const char* ssid = "PhayouneWIFI";
-const char* password = "PhayounE2014";
+const char* ssid = "your wifi ssid";
+const char* password = "your wifi password";
 
 const char* ntpServer1 = "pool.ntp.org";
 const char* ntpServer2 = "time.nist.gov";
